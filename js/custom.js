@@ -93,3 +93,21 @@ anime.timeline({
 	});
 
 // End Text Animation
+
+
+
+// Tracking Animation
+let triangleContainer = document.querySelector('.mouseMoveContainer');
+
+triangleContainer.addEventListener('mousemove', (e) => {
+	let eyes = document.querySelector('.circle12');
+	let mouseX = (eyes.getBoundingClientRect().left);
+	let mouseY = (eyes.getBoundingClientRect().top);
+	//console.log(e.pageY - mouseY);
+	let radianDegrees = Math.atan2(e.clientX - mouseX, e.clientY - mouseY);
+	let rotationDegrees = (radianDegrees * (180 / Math.PI) * -1) + 180;
+	//console.log(radianDegrees);
+	//console.log(radianDegrees);
+	//console.log(rotationDegrees);
+	eyes.style.transform = `rotate(${rotationDegrees}deg)`
+});

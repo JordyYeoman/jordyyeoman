@@ -68,12 +68,10 @@ if ( is_front_page() ) {
 							<div class="hero-image-container col-md">
 								<img class="hero-image" style="margin-right:-5%;"
 									src="<?php echo get_template_directory_uri(); ?>/src/assets/ARC-reactor.png">
-								
-								</div>
-								<!-- // Transparent Ironman Images - Background -->
-								<img class="hero-image-bg-transparent hero-t-1 position-absolute"
-									src="<?php echo get_template_directory_uri(); ?>/src/assets/Ironman-PNG.png">
-									
+							</div>
+							<!-- // Transparent Ironman Images - Background -->
+							<img class="hero-image-bg-transparent hero-t-1 position-absolute"
+								src="<?php echo get_template_directory_uri(); ?>/src/assets/Ironman-PNG.png">
 						</div>
 					</div>
 					<section>
@@ -99,7 +97,7 @@ if ( is_front_page() ) {
 									</div> -->
 								</div>
 								<div class="w-50 text-block-first">
-										<h6 class="intro-top"><span class="dash-line">-</span>Introduction</h6>
+									<h6 class="intro-top"><span class="dash-line">-</span>Introduction</h6>
 									<h2>My name is <span class="different-text">Jordy</span></h2>
 									<p>I <strong>love</strong> to build, create and learn all things technology,
 										programming and health. I'm also a massive fanboy for
@@ -119,34 +117,27 @@ if ( is_front_page() ) {
 						</div>
 					</section>
 					<section>
-						
 						<div class="container">
 							<div class="d-flex w-100 align-items-center pt-6" style="z-index:2">
 								<div class="w-50">
 									<div class="">
-									<img class="hero-image-bg-transparent hero-t-2 position-absolute" 
-									src="<?php echo get_template_directory_uri(); ?>/src/assets/ironmanflyingtowards.png">
-
-										
-										<h6><span class="dash-line">-</span>Introduction</h6>
-										<h1 class="text-white">I Am A</h1>
-										<p class="">Upgrade & adapt, learn to build and improve yourself
-											physically & mentally. <br>Join me
-											on my journey to try upgrade myself through electronics, bio-hacking and
-											much more!
+										<h6><span class="dash-line">-</span>Hey you, I'm</h6>
+										<h1 class="text-white">More than just</h1>
+										<h1 class="text-white">a man....</h1>
+										<p class="">Challenge yourself to be more than you were yesterday. <br>
+											In the wise words of Jocko Willink, "What could you be, if you worked as
+											hard as you could...?"
 										</p>
-										<a href="#">
-											<div class="">
-												<div class="text-white">Watch Latest Video Now!</div>
-												<div class="circle-play-button">></div>
-											</div>
-										</a>
+										<p>Let's take that message and go full throttle, there's nothing stopping you if
+											you have the right mindset.</p>
+										<div><a class="join-team-button p-2" href="#">Join the team!</a></div>
 										<div>
 										</div>
 									</div>
 								</div>
-								<div class="w-50"><img class="" style="margin-right:-5%;"
-										src="<?php echo get_template_directory_uri(); ?>/src/assets/circuitboard4.png">
+								<div class="w-50 position-relative h-100"><img
+										class="hero-image-bg-transparent hero-t-2 "
+										src="<?php echo get_template_directory_uri(); ?>/src/assets/ironmanflyingtowards.png">
 								</div>
 							</div>
 						</div>
@@ -160,10 +151,10 @@ if ( is_front_page() ) {
 									<div class="holographic-card d-flex">
 										<div class="w-50 p-4">
 											<div class="bg-white py-10 w-90">
-											<img class="w-90"
-												src="<?php echo get_template_directory_uri(); ?>/src/assets/contact.jpg">
-</div>
+												<img class="w-90"
+													src="<?php echo get_template_directory_uri(); ?>/src/assets/contact.jpg">
 											</div>
+										</div>
 										<div class="w-50 py-5 pr-4">
 											<h2>Sign Up</h2>
 											<p>Access to all of my exclusive videos, learn how to become a bio-hacker
@@ -184,58 +175,59 @@ if ( is_front_page() ) {
 							</div>
 						</div>
 					</section>
-					<!-- End Test Section -->
+					<!-- START What I do Section -->
 					<section>
-						<div class="wrapper-bg container">
-							<div class="wrapper-bg-clip"></div>
-							<div class="pt-6">
-								<h1 class="text-center pb-4 position-relative">What do I do?</h1>
-								<div class="row text-left">
-									<div class="col-md-3 mb-4">
-										<div class="position-relative lg-shadow">
-											<h3 class="rotaterino position-absolute"><span
-													class="bg-light p-2 justify-content-center l-shadow">Build</span>
-											</h3>
-											<div class="buffer-space bg-gradient-orange"></div>
-											<p class="p-2 font-Oswald">I build Electronics, Woodwork, 3D Models</p>
-										</div>
-									</div>
-									<div class="col-md-3 mb-4">
-										<div class="lg-shadow position-relative">
-											<h3 class="rotaterino position-absolute"><span
-													class="bg-light p-2 justify-content-center l-shadow">Repair</span>
-											</h3>
-											<div class="buffer-space bg-gradient-aqua"></div>
-											<p class="p-2 font-Oswald">I build Electronics, Woodwork, 3D Models</p>
-										</div>
-									</div>
-									<div class="col-md-3 mb-4">
-										<div class="lg-shadow position-relative">
-											<h3 class="rotaterino position-absolute"><span
-													class="bg-light p-2 justify-content-center l-shadow">Exercise</span>
-											</h3>
-											<div class="buffer-space bg-gradient-yellow"></div>
-											<p class="p-2 font-Oswald">I build Electronics, Woodwork, 3D Models</p>
-										</div>
-									</div>
-									<div class="col-md-3 mb-4">
-										<div class="lg-shadow position-relative">
-											<h3 class="rotaterino position-absolute"><span
-													class="bg-light p-2 justify-content-center l-shadow">Code</span>
-											</h3>
-											<div class="buffer-space bg-gradient-azure"></div>
-											<p class="p-2 font-Oswald">I build Electronicsss, Woodwork, 3D Models</p>
-										</div>
-									</div>
+						<div class="row m-0 cardStyles position-relative mouseMoveContainer">
+							<div class="w-50 p-4 pr-5">
+								<a href="#">
+								<div class="p-4 shadow1 w-70 mb-5">
+									<h4>Repair</h4>
+									<p class="pr-4">From drones to power tools and everything in between. I love solving issues on
+										repair tools, albeit I have a tonne to learn still.</p>
 								</div>
+</a>
+								<a href="#">
+								<div class="p-4 shadow1 w-70">
+									<h4>Repair</h4>
+									<p class="pr-4">From drones to power tools and everything in between. I love solving issues on
+										repair tools, albeit I have a tonne to learn still.</p>
+								</div>
+</a>
 							</div>
-							<!-- Container Close -->
-						</div><!-- Wrapper-bg Close -->
-					</section>
-				</main><!-- #main -->
-			</div><!-- #primary -->
-		</div><!-- .row end -->
-	</div><!-- #content -->
+						
+						<div class="w-50 p-4 text-right pl-5 d-flex rightCards">
+						<a href="#" class="d-contents">
+							<div class="p-4 shadow2 w-70 mb-5">
+								<h4>Repair</h4>
+								<p class="pl-4">From drones to power tools and everything in between. I love solving issues on repair
+									tools, albeit I have a tonne to learn still.</p>
+							</div>
+</a>
+							<a href="#" class="d-contents">
+							<div class="p-4 shadow2 w-70">
+								<h4>Repair</h4>
+								<p class="pl-4">From drones to power tools and everything in between. I love solving issues on repair
+									tools, albeit I have a tonne to learn still.</p>
+							</div>
+							</a>
+						</div>
+						<!-- SVG Animation -->
+						<div class="circleAnim-container">
+							<div class="circle12">
+							<svg xmlns="http://www.w3.org/2000/svg" class="triangle-pointer" fill="white" viewBox="0 0 100 100">
+    <polygon points="50 15, 100 100, 0 100"/>
+</svg>
+							</div>
+							
+					</div>
+			</div>
+
+			</section>
+			<!-- ENDOF What I do Section -->
+			</main><!-- #main -->
+		</div><!-- #primary -->
+	</div><!-- .row end -->
+</div><!-- #content -->
 </div><!-- #full-width-page-wrapper -->
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js" type="text/javascript">
 </script>

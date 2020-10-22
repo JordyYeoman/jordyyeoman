@@ -51,3 +51,54 @@ get_footer();
 						</svg>
 					</div>
 					<!-- Background Waves End -->
+
+
+
+					<!-- End Test Section -->
+					<section>
+						<div class="wrapper-bg container">
+							<div class="wrapper-bg-clip"></div>
+							<div class="pt-6">
+								<h1 class="text-center pb-4 position-relative">What do I do?</h1>
+								<div class="row text-left">
+									<div class="col-md-3 mb-4">
+										<div class="position-relative lg-shadow">
+											<h3 class="rotaterino position-absolute"><span
+													class="bg-light p-2 justify-content-center l-shadow">Build</span>
+											</h3>
+											<div class="buffer-space bg-gradient-orange"></div>
+											<p class="p-2 font-Oswald">I build Electronics, Woodwork, 3D Models</p>
+										</div>
+									</div>
+									<div class="col-md-3 mb-4">
+										<div class="lg-shadow position-relative">
+											<h3 class="rotaterino position-absolute"><span
+													class="bg-light p-2 justify-content-center l-shadow">Repair</span>
+											</h3>
+											<div class="buffer-space bg-gradient-aqua"></div>
+											<p class="p-2 font-Oswald">I build Electronics, Woodwork, 3D Models</p>
+										</div>
+									</div>
+									<div class="col-md-3 mb-4">
+										<div class="lg-shadow position-relative">
+											<h3 class="rotaterino position-absolute"><span
+													class="bg-light p-2 justify-content-center l-shadow">Exercise</span>
+											</h3>
+											<div class="buffer-space bg-gradient-yellow"></div>
+											<p class="p-2 font-Oswald">I build Electronics, Woodwork, 3D Models</p>
+										</div>
+									</div>
+									<div class="col-md-3 mb-4">
+										<div class="lg-shadow position-relative">
+											<h3 class="rotaterino position-absolute"><span
+													class="bg-light p-2 justify-content-center l-shadow">Code</span>
+											</h3>
+											<div class="buffer-space bg-gradient-azure"></div>
+											<p class="p-2 font-Oswald">I build Electronicsss, Woodwork, 3D Models</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Container Close -->
+						</div><!-- Wrapper-bg Close -->
+					</section>

@@ -60,6 +60,15 @@ p {
 	line-height: 2;
 }
 
+.w-70 {
+	width: 70%;
+}
+
+.rightCards {
+	flex-direction: column;
+	align-items: flex-end;
+}
+
 .different-text {
 	background: rgb(255, 54, 54);
 	background: linear-gradient(90deg,
@@ -307,7 +316,7 @@ a.nav-link:hover {
 }
 
 .hero-image-bg-transparent {
-	opacity: 0.3;
+	opacity: 0.2;
 }
 
 .hero-t-1 {
@@ -319,7 +328,8 @@ a.nav-link:hover {
 }
 
 .hero-t-2 {
-	right: 10%;
+	right: 0;
+	top: 0;
 }
 
 .hero-image {
@@ -443,7 +453,7 @@ a.nav-link:hover {
 // Section Styles
 
 section {
-	padding: 140px 0;
+	padding: 1rem 0;
 }
 
 .section-style {
@@ -502,6 +512,65 @@ section .section-title {
 .py-10 {
 	padding-top: 6rem !important;
 	padding-bottom: 6rem !important;
+}
+
+.shadow1 {
+	background-color: white;
+	transition: 0.5s;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.shadow1:hover {
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+.d-contents {
+	display: contents;
+}
+
+.shadow2 {
+	background-color: white;
+	transition: 0.5s;
+	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.shadow2:hover {
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.circleAnim-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.circle12 {
+	position: relative;
+	left: -50px;
+	top: -50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	transform-origin: center 50px;
+	border: 3px solid #fff;
+}
+
+a h4 {
+	color: black;
+}
+
+.triangle-pointer {
+	width: 20px;
+	left: -10px;
+	position: absolute;
+	transform: rotate(64deg);
+}
+
+
+.cardStyles,
+.cardStyles p {
+	color: black;
 }
 
 // Footer Styles
