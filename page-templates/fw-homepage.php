@@ -45,7 +45,7 @@ if ( is_front_page() ) {
 								<!-- Text animation -->
 								<h1 class="ml4">
 									<span class="letters letters-1">Builder</span>
-									<span class="letters letters-2">Fanboy</span>
+									<span class="letters letters-2">Repairman</span>
 									<span class="letters letters-3">Yeoman</span>
 									<span class="letters letters-4">Coder</span>
 									<span class="letters letters-5">Designer</span>
@@ -180,14 +180,13 @@ if ( is_front_page() ) {
 						<div class="row m-0 cardStyles position-relative mouseMoveContainer">
 							<div class="w-50 p-4 pr-5">
 								<a href="#">
-								<div class="p-4 shadow1 w-70 mb-5">
-									<h4>Repair</h4>
-									<p class="pr-4">From drones to power tools and everything in between. I love solving issues on
-										repair tools, albeit I have a tonne to learn still.</p>
+								<div class="p-4 shadow1 w-70 mb-5 h-50">
+									<h4>Code</h4>
+									<p class="pr-4">Programming is fascinating, from learning Javascript over the last year, to now moving into other languages such as python to code drones! Check out some of my recent work.</p>
 								</div>
 </a>
 								<a href="#">
-								<div class="p-4 shadow1 w-70">
+								<div class="p-4 shadow1 w-70 h-50">
 									<h4>Repair</h4>
 									<p class="pr-4">From drones to power tools and everything in between. I love solving issues on
 										repair tools, albeit I have a tonne to learn still.</p>
@@ -197,17 +196,15 @@ if ( is_front_page() ) {
 						
 						<div class="w-50 p-4 text-right pl-5 d-flex rightCards">
 						<a href="#" class="d-contents">
-							<div class="p-4 shadow2 w-70 mb-5">
-								<h4>Repair</h4>
-								<p class="pl-4">From drones to power tools and everything in between. I love solving issues on repair
-									tools, albeit I have a tonne to learn still.</p>
+							<div class="p-4 shadow2 w-70 mb-5 h-50">
+								<h4>Build</h4>
+								<p class="pl-4">There is a strange satisfaction in using your hands to create things out of wood/metal/other materials. Always learning and striving to build bigger and better projects, have a look at some recent work.	</p>
 							</div>
 </a>
 							<a href="#" class="d-contents">
-							<div class="p-4 shadow2 w-70">
-								<h4>Repair</h4>
-								<p class="pl-4">From drones to power tools and everything in between. I love solving issues on repair
-									tools, albeit I have a tonne to learn still.</p>
+							<div class="p-4 shadow2 w-70 h-50">
+								<h4>Fitness</h4>
+								<p class="pl-4">Exercise is one of my main passions, I love to push myself physically to see how far I can go. The body is one amazing machine.</p>
 							</div>
 							</a>
 						</div>

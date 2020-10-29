@@ -71,9 +71,11 @@ p {
 
 .different-text {
 	background: rgb(255, 54, 54);
-	background: linear-gradient(90deg,
-			rgba(255, 54, 54, 1) 0%,
-			rgba(255, 149, 0, 1) 100%);
+	background: linear-gradient(
+		90deg,
+		rgba(255, 54, 54, 1) 0%,
+		rgba(255, 149, 0, 1) 100%
+	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -180,7 +182,7 @@ p {
 	// 	rgba(195, 34, 34, 1) 0%,
 	// 	rgba(253, 226, 45, 1) 100%
 	// );
-	background-color: #2c1f1f;
+	background-color: #0d1117;
 }
 
 body {
@@ -401,14 +403,16 @@ a.nav-link:hover {
 	background-color: white;
 	position: absolute;
 	min-height: 400px;
-	clip-path: polygon(39% 0,
-			40% 5%,
-			100% 5%,
-			100% 95%,
-			40% 95%,
-			39% 100%,
-			0 100%,
-			0 0);
+	clip-path: polygon(
+		39% 0,
+		40% 5%,
+		100% 5%,
+		100% 95%,
+		40% 95%,
+		39% 100%,
+		0 100%,
+		0 0
+	);
 }
 
 .section-1-corner {
@@ -538,7 +542,6 @@ section .section-title {
 	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
 }
 
-
 .circleAnim-container {
 	position: absolute;
 	left: 50%;
@@ -561,12 +564,12 @@ a h4 {
 }
 
 .triangle-pointer {
-	width: 20px;
-	left: -10px;
 	position: absolute;
-	transform: rotate(64deg);
+	transform: rotate(2deg);
+	width: 25%;
+	top: -31px;
+	left: 34px;
 }
-
 
 .cardStyles,
 .cardStyles p {
