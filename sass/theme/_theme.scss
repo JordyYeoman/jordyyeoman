@@ -9,7 +9,7 @@ $transition-animations2: 0.35s;
 $secondary: #26211e;
 $secondary-300: #262020;
 
-// Font Familia's
+// Font Familia's //
 @font-face {
 	font-family: Lovelo;
 	src: url("../fonts/Lovelo.woff2") format("woff2");
@@ -513,6 +513,10 @@ section .section-title {
 	width: 90%;
 }
 
+.pb-6 {
+	padding-bottom: 6rem !important;
+}
+
 .py-10 {
 	padding-top: 6rem !important;
 	padding-bottom: 6rem !important;
@@ -574,6 +578,27 @@ a h4 {
 .cardStyles,
 .cardStyles p {
 	color: black;
+}
+
+// Standard Page Styles //
+.clipContainer {
+	background-color: white;
+	min-height: 200px;
+	clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%, 18.5% 0);
+}
+
+.clipContainer-bg {
+	height: 100%;
+	width: 100%;
+	background: rgb(215, 40, 22);
+	background: linear-gradient(
+		90deg,
+		rgba(215, 40, 22, 1) 0%,
+		rgba(251, 213, 29, 1) 35%,
+		rgba(255, 134, 0, 1) 100%
+	);
+	clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%, 18.5% 0);
+	top: -5px;
 }
 
 // Footer Styles
