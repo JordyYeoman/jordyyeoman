@@ -19,7 +19,7 @@ if ( is_front_page() ) {
 ?>
 <!-- Clip Path Seperator -->
 <div class="wrapper position-relative" id="full-width-page-wrapper">
-					<div class="container"><div class="row"><div class="col-md-12">
+					<div class="container"><div class="row"  style="padding-left:15%;"><div class="col-md-12">
 					<div class="py-5">
 						<h1>About me!</h1>
 					</div>
@@ -30,21 +30,42 @@ if ( is_front_page() ) {
 <div class="wrapper position-relative clipContainer" id="full-width-page-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" style="min-height:100vh;">
-
-		<div class="row">
+		<span style="color:black;">
+		<div class="row" style="padding-left: 10%; padding-right:10%;">
 
 			<div class="col-md-12 content-area" id="primary">
 
-				<main class="site-main" id="main" role="main">
+				<main class="d-flex justify-content-between px-5" id="main" role="main">
 					
-					<div>Hello World.</div>
+					<div style="max-width: 70%;">Hey Legends,
+						<p class="standard-page-p">Thank you for visiting my site and checking out some of the content! I truly hope that you will learn something here, be able to improve your own life in some way & maybe we can even work together on projects. I love working as a team with anyone, give me a <strong>Hollahhhh!</strong></p>
+					</div>
+					<div class="d-flex align-items-center flex-direction: column ">
+					<img class="hero-image"
+									src="<?php echo get_template_directory_uri(); ?>/src/assets/inventor-man.jpg" style="max-width: 40%; transform:rotate(1deg);">
+									Image bruh.
+									</div>
+					
 
 				</main><!-- #main -->
 
 			</div><!-- #primary -->
 
 		</div><!-- .row end -->
+		<div class="row">
 
+			<div class="col-md-12 content-area" id="primary">
+
+				<main class="site-main" id="main" role="main">
+					
+					<div>Np.</div>
+
+				</main><!-- #main -->
+
+			</div><!-- #primary -->
+
+		</div><!-- .row end -->
+		</span>
 	</div><!-- #content -->
 
 </div><!-- #full-width-page-wrapper -->
