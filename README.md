@@ -2,7 +2,7 @@
 
 #### I am Self Taught Programmer.
 
-![I am Self Taught Programmer.](https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+![I'm a Self Taught Programmer.](https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 
 I love to learn and grow. Building all things technology is my passion.
 

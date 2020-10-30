@@ -580,13 +580,14 @@ a h4 {
 	color: black;
 }
 
-// Standard Page Styles //
+// Standard Page Styles ///
 .standard-page-p {
 	color: rgba(0, 0, 0, 0.7);
 }
 .clipContainer {
 	background-color: white;
 	min-height: 200px;
+	padding-top: 50px;
 	clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%, 18.5% 0);
 }
 
@@ -602,6 +603,12 @@ a h4 {
 	);
 	clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 20%, 18.5% 0);
 	top: -5px;
+}
+
+.clipContainer2 {
+	min-height: 400px;
+	background-color: #0d1117;
+	clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
 }
 
 // Footer Styles
