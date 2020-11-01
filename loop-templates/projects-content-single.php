@@ -14,7 +14,15 @@ defined( 'ABSPATH' ) || exit;
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
-	<div class="entry-content">
+	
+
+	<div class="entry-header">
+
+		<?php the_title( '<h4 class="entry-title">', '</h4>' ); ?>
+
+</div>
+
+<div class="entry-content">
 
 		<!-- <//?php the_content(); ?> -->
 
@@ -28,18 +36,12 @@ defined( 'ABSPATH' ) || exit;
 		?>
 
 	</div><!-- .entry-content -->
-
-	<div class="entry-header">
-
-		<?php the_title( '<h4 class="entry-title">', '</h4>' ); ?>
-
-</div>
 <!--
 	<footer class="entry-footer">
 
 		<//?php understrap_entry_footer(); ?>
 
 	</footer> .entry-footer -->
-
+<div class="post-stats"><?php the_time('F j, Y'); ?></div>
 </article><!-- #post-## -->
 </a>

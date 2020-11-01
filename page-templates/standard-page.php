@@ -89,7 +89,7 @@ if ( is_front_page() ) {
                     ));
                     while ( $loop->have_posts() ) : $loop->the_post();
 					?>
-					<div class="col-lg-4 swiper-slide">
+					<div class="col-lg-4 swiper-slide shadow-lg-tw bg-white">
 						<?php 
 							get_template_part('loop-templates/projects-content-single', get_post_format());
 						?>
@@ -105,7 +105,7 @@ if ( is_front_page() ) {
 			</div><!-- #primary -->
 
 		</div><!-- .row end -->
-
+					
 		</span>
 		
 	</div><!-- #content -->
@@ -145,7 +145,26 @@ if ( is_front_page() ) {
 
 </div><!-- #full-width-page-wrapper -->
 </div>
-
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 20,
+        stretch: 0,
+        depth: 400,
+        modifier: 1,
+        slideShadows: false,
+	  },
+	  loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
 <?php
 get_footer();
 
