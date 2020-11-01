@@ -57,23 +57,62 @@ if ( is_front_page() ) {
 			</div><!-- #primary -->
 
 		</div><!-- .row end -->
-		<div class="row" style="padding-left: 10%;">
+		<div class="row" style="padding-left: 10%; padding-top: 32px;">
 
 			<div class="col-md-12 content-area" id="primary">
 
-				<main class="px-5" id="main" role="main">
-					
-					<div>JY.</div>
-
-				</main><!-- #main -->
+				<div class="col-6 d-flex justify-content-center">
+					<a href="#">
+						<div class="join-team-btn shadow-light"><h3>Join the team!</h3></div>
+					</a>
+				</div>
 
 			</div><!-- #primary -->
 
 		</div><!-- .row end -->
 		
+		<div class="row" style="padding-left: 10%; padding-top: 128px;">
+
+			<div class="col-md-12 content-area d-flex justify-content-center flex-column align-items-center" id="primary">
+					<h3>Recent Projects: </h3>
+					
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+<!-- 
+				// Bring in the 5 most recent posts // -->
+				<?php
+
+				$loop = new WP_Query( array(
+                    'post_type' => 'post',  
+                    'posts_per_page' => 5,
+                    'order'   => 'DESC',
+                    ));
+                    while ( $loop->have_posts() ) : $loop->the_post();
+					?>
+					<div class="col-lg-4 swiper-slide">
+						<?php 
+							get_template_part('loop-templates/projects-content-single', get_post_format());
+						?>
+					</div>
+
+
+					<?php
+                    endwhile; wp_reset_query();
+                    ?>
+					</div><!-- Swiper-wrapper END -->
+					<div class="swiper-pagination"></div>
+				</div><!-- Swiper-container END -->
+			</div><!-- #primary -->
+
+		</div><!-- .row end -->
+
 		</span>
 		
 	</div><!-- #content -->
+
+
+
+
 	<div class="wrapper position-relative clipContainer2" id="full-width-page-wrapper">
 <div class="container pt-5" style="padding-bottom:6rem; padding-top:8rem!important;">
 <div class="row">
