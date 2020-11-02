@@ -113,3 +113,47 @@ triangleContainer.addEventListener('mousemove', (e) => {
 });
 
 
+// Ironman Hovering Animation
+
+let ironManSuit = document.querySelector('.hovering');
+let ironTimeline = anime.timeline({
+	loop: true,
+	offset: 0,
+	direction: 'alternate',
+	elasticity: 0,
+});
+
+ironTimeline.add({
+	targets: ironManSuit,
+	translateY: 10,
+	translateX: 0,
+	easing: "linear",
+	duration: 2000,
+}).add({
+	targets: ironManSuit,	
+	translateY: -10,
+	translateX: 10,
+	easing: "linear",
+	duration: 2000,
+}).add({
+	targets: ironManSuit,
+	translateY: 10,
+	translateX: -10,
+	easing: "linear",
+	duration: 2000,
+}).add({
+	targets: ironManSuit,	
+	translateY: -10,
+	translateX: -20,
+	easing: "linear",
+	duration: 2000,
+}).add({
+	targets: ironManSuit,	
+	translateY: 0,
+	translateX: 0,
+	easing: "linear",
+	duration: 2000,
+})
+
+
+
