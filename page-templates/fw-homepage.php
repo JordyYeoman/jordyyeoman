@@ -156,53 +156,133 @@ if ( is_front_page() ) {
                         </div>
                     </section>
                     <!-- START What I do Section -->
-                    <section class='container'>
-                        <div class="row m-0 cardStyles position-relative mouseMoveContainer">
-                            <div class="w-50">
-                                <a href="#">
-                                    <div class="p-4 shadow1 w-70 mb-5 h-50">
-                                        <h4>Code</h4>
-                                        <p class="pr-4">Programming is fascinating, from learning Javascript over the
-                                            last year, to now moving into other languages such as python to code drones!
-                                            Check out some of my recent work.</p>
-                                    </div>
-                                </a>
-                                <a href="#">
-                                    <div class="p-4 shadow1 w-70 h-50">
-                                        <h4>Repair</h4>
-                                        <p class="pr-4">From drones to power tools and everything in between. I love
-                                            solving issues on
-                                            repair tools, albeit I have a tonne to learn still.</p>
-                                    </div>
-                                </a>
-                            </div>
+                    <section class='position-relative d-flex justify-content-center'>
+                        <div class="position-absolute w-100 h-100 wrapper-bg-clip container"
+                            style="transform:rotateY(180deg);">
+                            <h4 class="t-text" style="transform:rotateY(180deg); text-align:right;">Learn</h4>
+                        </div>
+                        <div class="container">
+                            <div class="row m-0 cardStyles position-relative mouseMoveContainer pt-6">
+                                <div class="w-50 d-flex flex-column">
+                                    <a href="#">
+                                        <div class="shadow1 w-70 mb-5 position-relative">
 
-                            <div class="w-50 text-right d-flex rightCards">
-                                <a href="#" class="d-contents">
-                                    <div class="p-4 shadow2 w-70 mb-5 h-50">
-                                        <h4>Build</h4>
-                                        <p class="pl-4">There is a strange satisfaction in using your hands to create
-                                            things out of wood/metal/other materials. Always learning and striving to
-                                            build bigger and better projects, have a look at some recent work. </p>
-                                    </div>
-                                </a>
-                                <a href="#" class="d-contents">
-                                    <div class="p-4 shadow2 w-70 h-50">
-                                        <h4>Fitness</h4>
-                                        <p class="pl-4">Exercise is one of my main passions, I love to push myself
-                                            physically to see how far I can go. The body is one amazing machine.</p>
-                                    </div>
-                                </a>
-                            </div>
-                            <!-- SVG Animation -->
-                            <div class="circleAnim-container">
-                                <div class="circle12">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="triangle-pointer" fill="white"
-                                        viewBox="0 0 100 100">
-                                        <polygon points="50 15, 100 100, 0 100" />
-                                    </svg>
+
+                                            <div class="home-card-1 d-flex justify-content-between">
+                                                <h4 class="p-4 color-white">Code</h4>
+                                                <img class="w-auto"
+                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
+
+                                            </div>
+
+                                            <div>
+                                                <p class="p-4 card-para">Programming is fascinating, from learning
+                                                    Javascript over
+                                                    the
+                                                    last year, to now moving into other languages such as python to code
+                                                    drones!
+                                                    Check out some of my recent work.</p>
+                                                <div
+                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
+
+                                                    <h6>Latest Posts</h6>
+                                                    <i class="fa fa-bookmark"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="shadow1 w-70 mb-5 position-relative">
+
+
+                                            <div class="home-card-1 d-flex justify-content-between">
+                                                <h4 class="p-4 color-white">Repair</h4>
+                                                <img class="w-auto"
+                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
+
+                                            </div>
+
+                                            <div>
+                                                <p class="p-4 card-para">From drones to power tools and everything in
+                                                    between. I love
+                                                    solving issues on
+                                                    repair tools, albeit I have a tonne to learn still.</p>
+                                                <div
+                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
+
+                                                    <h6>Latest Posts</h6>
+                                                    <i class="fa fa-bookmark"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
 
+                                <div class="w-50 text-right d-flex flex-column align-items-end">
+
+                                    <div class="shadow1 w-70 mb-5 position-relative">
+
+                                        <a href="#">
+                                            <div class="home-card-1 d-flex justify-content-between">
+                                                <h4 class="p-4 color-white">Build </h4>
+                                                <img class="w-auto"
+                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
+
+                                            </div>
+
+                                            <div>
+                                                <p class="p-4 card-para">There is a strange satisfaction in using your
+                                                    hands
+                                                    to
+                                                    create
+                                                    things out of wood/metal/other materials. Always learning and
+                                                    striving
+                                                    to
+                                                    build bigger and better projects, have a look at some recent work.
+                                                </p>
+                                                <div
+                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
+
+                                                    <h6>Latest Posts</h6>
+                                                    <i class="fa fa-bookmark"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+
+                                    <div class="shadow1 w-70 mb-5 position-relative"> <a href="#">
+                                            <div class="home-card-1 d-flex justify-content-between">
+                                                <h4 class="p-4 color-white">Fitness</h4>
+                                                <img class="w-auto"
+                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
+                                            </div>
+                                            <div>
+                                                <p class="p-4 card-para">Exercise is one of my main passions, I love to
+                                                    push myself
+                                                    physically to see how far I can go. The body is one amazing machine.
+                                                </p>
+                                                <div
+                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
+
+                                                    <h6>Latest Posts</h6>
+                                                    <i class="fa fa-bookmark"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!-- SVG Animation -->
+                                <div class="circleAnim-container">
+                                    <div class="circle12">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="triangle-pointer"
+                                            fill="#00000033" viewBox="0 0 100 100">
+                                            <polygon points="50 15, 100 100, 0 100" />
+                                        </svg>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
 

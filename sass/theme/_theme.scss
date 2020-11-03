@@ -64,11 +64,6 @@ p {
 	width: 70%;
 }
 
-.rightCards {
-	flex-direction: column;
-	align-items: flex-end;
-}
-
 .different-text {
 	background: rgb(255, 54, 54);
 	background: linear-gradient(
@@ -448,6 +443,12 @@ a.nav-link:hover {
 	bottom: 0;
 }
 
+.home-card-1 {
+	background: linear-gradient(-45deg, #f32141, #ffec61);
+	height: 60%;
+	width: 100%;
+}
+
 .shadow {
 	-webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 	filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
@@ -525,11 +526,14 @@ section .section-title {
 .shadow1 {
 	background-color: white;
 	transition: 0.5s;
-	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+	margin-left: 1rem;
+	min-height: 50%;
 }
 
 .shadow1:hover {
-	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	transform: scale(0.95);
 }
 
 .d-contents {
@@ -539,11 +543,14 @@ section .section-title {
 .shadow2 {
 	background-color: white;
 	transition: 0.5s;
-	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.5);
+	min-height: 50%;
+	margin-right: 1rem;
+	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .shadow2:hover {
-	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+	transform: scale(0.95);
 }
 
 .circleAnim-container {
@@ -560,7 +567,7 @@ section .section-title {
 	height: 100px;
 	border-radius: 100%;
 	transform-origin: center 50px;
-	border: 3px solid #fff;
+	border: 3px solid rgba(0, 0, 0, 0.2);
 }
 
 a h4 {
@@ -580,7 +587,16 @@ a h4 {
 	color: black;
 }
 
-/// Standard Page Styles ///
+.card-para {
+	font-size: 15px;
+	color: #a4a1a1 !important;
+}
+
+.card-share-details {
+	color: #2620206b !important;
+}
+
+//// Standard Page Styles ///
 .standard-page-p {
 	color: rgba(0, 0, 0, 0.7);
 }
