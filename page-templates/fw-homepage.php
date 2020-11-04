@@ -164,112 +164,111 @@ if ( is_front_page() ) {
                         <div class="container">
                             <div class="row m-0 cardStyles position-relative mouseMoveContainer pt-6">
                                 <div class="w-50 d-flex flex-column">
-                                    <a href="#">
-                                        <div class="shadow1 w-70 mb-5 position-relative">
+
+                                    <div class="shadow1 w-70 mb-5 position-relative">
 
 
-                                            <div class="home-card-1 d-flex justify-content-between">
-                                                <h4 class="p-4 color-white">Code</h4>
-                                                <img class="w-auto"
-                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
+                                        <div class="home-card-1 d-flex justify-content-between">
+                                            <h4 class="p-4 color-white">Code</h4>
+                                            <img class="w-auto pr-4"
+                                                src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
 
-                                            </div>
+                                        </div>
 
-                                            <div>
-                                                <p class="p-4 card-para">Programming is fascinating, from learning
-                                                    Javascript over
-                                                    the
-                                                    last year, to now moving into other languages such as python to code
-                                                    drones!
-                                                    Check out some of my recent work.</p>
-                                                <div
-                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
+                                        <div>
+                                            <p class="p-4 card-para">Programming is fascinating, from learning
+                                                Javascript over
+                                                the
+                                                last year, to now moving into other languages such as python to code
+                                                drones!
+                                                Check out some of my recent work.</p>
+                                            <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
 
-                                                    <h6>Latest Posts</h6>
-                                                    <i class="fa fa-bookmark"></i>
-                                                </div>
+                                                <h6>Latest Posts</h6>
+                                                <i class="fa fa-bookmark"></i>
                                             </div>
                                         </div>
-                                    </a>
-                                    <a href="#">
-                                        <div class="shadow1 w-70 mb-5 position-relative">
+                                        <a href="#" class="anchor-wrapper"></a>
+                                    </div>
 
 
-                                            <div class="home-card-1 d-flex justify-content-between">
-                                                <h4 class="p-4 color-white">Repair</h4>
-                                                <img class="w-auto"
-                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
+                                    <div class="shadow1 w-70 mb-5 position-relative">
 
-                                            </div>
 
-                                            <div>
-                                                <p class="p-4 card-para">From drones to power tools and everything in
-                                                    between. I love
-                                                    solving issues on
-                                                    repair tools, albeit I have a tonne to learn still.</p>
-                                                <div
-                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
+                                        <div class="home-card-1 bg-gradient2 d-flex justify-content-between">
+                                            <h4 class="p-4 color-white">Repair</h4>
+                                            <img class="w-auto pr-4"
+                                                src="<?php echo get_template_directory_uri(); ?>/src/assets/drone-repair-perth.svg">
 
-                                                    <h6>Latest Posts</h6>
-                                                    <i class="fa fa-bookmark"></i>
-                                                </div>
+                                        </div>
+
+                                        <div>
+                                            <p class="p-4 card-para">From drones to power tools and everything in
+                                                between. I love
+                                                solving issues on
+                                                repair tools, albeit I have a tonne to learn still.</p>
+                                            <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
+
+                                                <h6>Latest Posts</h6>
+                                                <i class="fa fa-bookmark"></i>
                                             </div>
                                         </div>
-                                    </a>
+                                        <a href="#" class="anchor-wrapper"></a>
+                                    </div>
+
                                 </div>
 
                                 <div class="w-50 text-right d-flex flex-column align-items-end">
 
                                     <div class="shadow1 w-70 mb-5 position-relative">
 
-                                        <a href="#">
-                                            <div class="home-card-1 d-flex justify-content-between">
-                                                <h4 class="p-4 color-white">Build </h4>
-                                                <img class="w-auto"
-                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
 
+                                        <div class="home-card-1 bg-gradient3 d-flex justify-content-between">
+                                            <h4 class="p-4 color-white">Build </h4>
+                                            <img class="w-auto pr-4"
+                                                src="<?php echo get_template_directory_uri(); ?>/src/assets/builder-schematics.svg">
+
+                                        </div>
+
+                                        <div>
+                                            <p class="p-4 card-para">There is a strange satisfaction in using your
+                                                hands
+                                                to
+                                                create
+                                                things out of wood/metal/other materials. Always learning and
+                                                striving
+                                                to
+                                                build bigger and better projects, have a look at some recent work.
+                                            </p>
+                                            <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
+
+                                                <h6>Latest Posts</h6>
+                                                <i class="fa fa-bookmark"></i>
                                             </div>
-
-                                            <div>
-                                                <p class="p-4 card-para">There is a strange satisfaction in using your
-                                                    hands
-                                                    to
-                                                    create
-                                                    things out of wood/metal/other materials. Always learning and
-                                                    striving
-                                                    to
-                                                    build bigger and better projects, have a look at some recent work.
-                                                </p>
-                                                <div
-                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
-
-                                                    <h6>Latest Posts</h6>
-                                                    <i class="fa fa-bookmark"></i>
-                                                </div>
-                                            </div>
-                                        </a>
+                                        </div>
+                                        <a href="#" class="anchor-wrapper"></a>
                                     </div>
 
 
-                                    <div class="shadow1 w-70 mb-5 position-relative"> <a href="#">
-                                            <div class="home-card-1 d-flex justify-content-between">
-                                                <h4 class="p-4 color-white">Fitness</h4>
-                                                <img class="w-auto"
-                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/laptop.svg">
-                                            </div>
-                                            <div>
-                                                <p class="p-4 card-para">Exercise is one of my main passions, I love to
-                                                    push myself
-                                                    physically to see how far I can go. The body is one amazing machine.
-                                                </p>
-                                                <div
-                                                    class="px-4 pt-0 d-flex justify-content-between card-share-details">
+                                    <div class="shadow1 w-70 mb-5 position-relative">
 
-                                                    <h6>Latest Posts</h6>
-                                                    <i class="fa fa-bookmark"></i>
-                                                </div>
+                                        <div class="home-card-1 bg-gradient4 d-flex justify-content-between">
+                                            <h4 class="p-4 color-white">Fitness</h4>
+                                            <img class="w-auto pr-4"
+                                                src="<?php echo get_template_directory_uri(); ?>/src/assets/jordy-amara-fitness.svg">
+                                        </div>
+                                        <div>
+                                            <p class="p-4 card-para">Exercise is one of my main passions, I love to
+                                                push myself
+                                                physically to see how far I can go. The body is one amazing machine.
+                                            </p>
+                                            <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
+
+                                                <h6>Latest Posts</h6>
+                                                <i class="fa fa-bookmark"></i>
                                             </div>
-                                        </a>
+                                        </div>
+                                        <a href="#" class="anchor-wrapper"></a>
                                     </div>
 
                                 </div>

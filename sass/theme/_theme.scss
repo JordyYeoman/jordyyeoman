@@ -445,8 +445,22 @@ a.nav-link:hover {
 
 .home-card-1 {
 	background: linear-gradient(-45deg, #f32141, #ffec61);
-	height: 60%;
+	//height: 60%;
 	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.bg-gradient2 {
+	background: linear-gradient(-45deg, #2151f3, #61ffc1);
+}
+
+.bg-gradient3 {
+	background: linear-gradient(-45deg, #eeff50, #6178ff);
+}
+
+.bg-gradient4 {
+	background: linear-gradient(-45deg, #062dde, #ff3c3c);
 }
 
 .shadow {
@@ -528,7 +542,7 @@ section .section-title {
 	transition: 0.5s;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 	margin-left: 1rem;
-	min-height: 50%;
+	//min-height: 50%;
 }
 
 .shadow1:hover {
@@ -543,7 +557,7 @@ section .section-title {
 .shadow2 {
 	background-color: white;
 	transition: 0.5s;
-	min-height: 50%;
+	//min-height: 50%;
 	margin-right: 1rem;
 	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
 }
@@ -557,6 +571,15 @@ section .section-title {
 	position: absolute;
 	left: 50%;
 	top: 50%;
+}
+
+.anchor-wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
 
 .circle12 {
