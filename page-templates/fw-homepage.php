@@ -289,33 +289,33 @@ if ( is_front_page() ) {
                     <!-- ENDOF What I do Section -->
                     <!-- Start Test Section -->
                     <section>
-                        <div class="container">
+                        <div class="container position-relative mt-132">
+                            <div class="position-absolute wrapper-bg-clip container left-0 pl-0 pr-0">
+                                <img class="bg-svg"
+                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/lets-colab.svg">
+                            </div>
                             <div class="d-flex w-100 align-items-center pt-6 position-relative" style="z-index:2">
-                                <div class="lg-bg-text position-absolute">ADAPT</div>
-                                <div class="card-container">
-                                    <div class="holographic-card d-flex">
-                                        <div class="w-50 p-4">
-                                            <div class="bg-white py-10 w-90">
-                                                <img class="w-90"
-                                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/contact.jpg">
-                                            </div>
-                                        </div>
-                                        <div class="w-50 py-5 pr-4">
-                                            <h2>Sign Up</h2>
-                                            <p>Access to all of my exclusive videos, learn how to become a bio-hacker
-                                                like myself.</p>
-                                            <form>
-                                                <input>Email Address</input>
-                                                <input>Password</input>
-                                                <button>Sign Up</button>
-                                            </form>
-                                            <p>By clicking on Sign up, you agree to our terms of service and privacy
-                                                policy.</p>
-                                            <div>---------</div>
-                                            <p>Already have an account?<a>Sign In</a></p>
-                                            <p>Forgot password?<a>Reset</a></p>
-                                        </div>
+                                <div class="w-50 p-4">
+                                    <div>
                                     </div>
+                                </div>
+                                <div class="w-50 py-5 px-5 contact-input">
+                                    <h2 style="font-size:4rem;">Sign Up</h2>
+                                    <p>Access to all of my exclusive videos, learn how to become a
+                                        bio-hacker
+                                        like myself.</p>
+                                    <form class="py-3">
+                                        Email Address
+                                        <input></input>
+                                        Password
+                                        <input></input>
+                                        <button>Sign Up</button>
+                                    </form>
+                                    <p>By clicking on Sign up, you agree to our terms of service and privacy
+                                        policy.</p>
+                                    <div>---------</div>
+                                    <p>Already have an account?<a>Sign In</a></p>
+                                    <p>Forgot password?<a>Reset</a></p>
                                 </div>
                             </div>
                         </div>

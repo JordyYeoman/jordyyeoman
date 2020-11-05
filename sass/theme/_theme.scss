@@ -504,12 +504,30 @@ section .section-title {
 	min-height: 100px;
 }
 
-.holographic-card {
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.2);
-	backdrop-filter: blur(10px);
-	color: white;
+form {
+	display: flex;
+	flex-direction: column;
+	//padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+form input {
+	background-color: rgba(0, 0, 0, 0.2);
+	border: none;
+	border-radius: 5px;
+	min-height: 40px;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+form button {
+	margin-top: 1rem;
+	border-radius: 5px;
+	border: none;
+	min-height: 40px;
+}
+
+.contact-input {
 }
 
 .lg-bg-text {
@@ -518,6 +536,15 @@ section .section-title {
 	margin: 0 auto;
 	font-size: 20rem;
 	letter-spacing: 1rem;
+}
+
+.bg-svg {
+	height: auto;
+	position: absolute;
+	width: 137%;
+	max-width: 150%;
+	/* top: 0px; */
+	left: -12rem;
 }
 
 .card-container {
@@ -535,6 +562,14 @@ section .section-title {
 .py-10 {
 	padding-top: 6rem !important;
 	padding-bottom: 6rem !important;
+}
+
+.left-0 {
+	left: 0;
+}
+
+.mt-132 {
+	margin-top: 132px;
 }
 
 .shadow1 {
