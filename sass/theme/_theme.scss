@@ -510,10 +510,10 @@ form {
 	//padding-left: 1.5rem;
 	padding-right: 1.5rem;
 }
-
+form textarea,
 form input {
-	background-color: rgba(0, 0, 0, 0.2);
-	border: none;
+	background-color: rgba(0, 0, 0, 0.2) !important;
+	border: none !important;
 	border-radius: 5px;
 	min-height: 40px;
 	margin-top: 0.5rem;
@@ -527,7 +527,15 @@ form button {
 	min-height: 40px;
 }
 
-.contact-input {
+.wpcf7-submit {
+	background-color: white !important;
+	color: black !important;
+	font-family: Lovelo;
+	font-size: 20px;
+}
+
+.wpcf7-submit:hover {
+	color: rgb(59, 59, 59) !important;
 }
 
 .lg-bg-text {
@@ -541,10 +549,9 @@ form button {
 .bg-svg {
 	height: auto;
 	position: absolute;
-	width: 137%;
+	width: 148%;
 	max-width: 150%;
-	/* top: 0px; */
-	left: -12rem;
+	left: -14rem;
 }
 
 .card-container {

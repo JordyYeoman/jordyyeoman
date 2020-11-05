@@ -300,22 +300,9 @@ if ( is_front_page() ) {
                                     </div>
                                 </div>
                                 <div class="w-50 py-5 px-5 contact-input">
-                                    <h2 style="font-size:4rem;">Sign Up</h2>
-                                    <p>Access to all of my exclusive videos, learn how to become a
-                                        bio-hacker
-                                        like myself.</p>
-                                    <form class="py-3">
-                                        Email Address
-                                        <input></input>
-                                        Password
-                                        <input></input>
-                                        <button>Sign Up</button>
-                                    </form>
-                                    <p>By clicking on Sign up, you agree to our terms of service and privacy
-                                        policy.</p>
-                                    <div>---------</div>
-                                    <p>Already have an account?<a>Sign In</a></p>
-                                    <p>Forgot password?<a>Reset</a></p>
+                                    <h2 style="font-size:4rem;">Let's Collab!</h2>
+                                    <?php echo do_shortcode('[contact-form-7 id="63" title="main-contact-form" ]');?>
+
                                 </div>
                             </div>
                         </div>
