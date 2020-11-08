@@ -55,8 +55,7 @@ if ( is_front_page() ) {
 
                             </div>
                             <div class="d-flex align-items-center flex-column col">
-                                <img class=""
-                                    src="<?php echo get_template_directory_uri(); ?>/src/assets/about-page-selfie.png">
+                                <?php the_post_thumbnail(); ?>
                                 <p class="standard-page-p" style="font-size: 10px;">Selfie bruh.</p>
                             </div>
 

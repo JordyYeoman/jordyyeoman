@@ -29,51 +29,43 @@ $container = get_theme_mod( 'understrap_container_type' );
 
             <!-- Footer -->
             <section id="footer">
-                <div class="container" style="margin-right:3%;">
-                    <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="container">
+                    <div class="row text-center">
                         <div class="col-xs-12 col-sm-4 col-md-4">
                             <h5>Quick links</h5>
                             <ul class="list-unstyled quick-links">
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Home</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                <li><a href="http://jordyyeoman.local/"><i class="fa fa-angle-double-right"></i>Home</a>
+                                </li>
+                                <li><a href="http://jordyyeoman.local/about/"><i
                                             class="fa fa-angle-double-right"></i>About</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>FAQ</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Get Started</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Videos</a></li>
+                                <li><a href="http://jordyyeoman.local/tutorials/"><i
+                                            class="fa fa-angle-double-right"></i>Tutorials</a></li>
+                                <li><a href="http://jordyyeoman.local/to-do/"><i
+                                            class="fa fa-angle-double-right"></i>To-Do</a></li>
+                                <li><a href="http://jordyyeoman.local/contact/"><i
+                                            class="fa fa-angle-double-right"></i>Contact</a></li>
                             </ul>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4">
-                            <h5>Quick links</h5>
+                            <h5>Top Projects</h5>
                             <ul class="list-unstyled quick-links">
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Home</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>About</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>FAQ</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Get Started</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Videos</a></li>
+                                <li><a href=""><i class="fa fa-angle-double-right"></i>Iron-Heart</a></li>
+                                <li><a href=""><i class="fa fa-angle-double-right"></i>Electric Surfboard</a></li>
+                                <li><a href=""><i class="fa fa-angle-double-right"></i>iPhone 10 Repair</a></li>
+                                <li><a href=""><i class="fa fa-angle-double-right"></i>DJI Mavic Pro Repair</a></li>
                             </ul>
                         </div>
                         <div class="col-xs-12 col-sm-4 col-md-4">
-                            <h5>Donate</h5>
+                            <h5>Help the team!</h5>
                             <ul class="list-unstyled quick-links">
+                                <li><a href="https://www.paypal.com/paypalme/jordyyeoman"><i
+                                            class="fa fa-angle-double-right"></i>Paypal</a></li>
+                                <li><a href="http://www.youtube.com/c/Draxen" class="g-ytsubscribe"
+                                        data-channel="Draxen"><i class="fa fa-angle-double-right"></i>Subscribe</a></li>
+                                <!-- <li><a href="https://www.fiverr.com/share/qb8D02"><i
+                                            class="fa fa-angle-double-right"></i>BTC</a></li>
                                 <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Home</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>About</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>FAQ</a></li>
-                                <li><a href="https://www.fiverr.com/share/qb8D02"><i
-                                            class="fa fa-angle-double-right"></i>Get Started</a></li>
-                                <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i
-                                            class="fa fa-angle-double-right"></i>Imprint</a></li>
+                                            class="fa fa-angle-double-right"></i>ETH</a></li> -->
                             </ul>
                         </div>
                     </div>

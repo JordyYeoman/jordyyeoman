@@ -39,9 +39,9 @@ if ( is_front_page() ) {
                 <main class="site-main" id="main" role="main">
                     <div class="container-hero container">
                         <div class="row position-relative">
-                            <div class="hero-text-container col-md">
+                            <div class="hero-text-container col-12 col-md-6">
                                 <h6><span class="dash-line">-</span>Introduction</h6>
-                                <h1 class="text-white">I Am A</h1>
+                                <h1 class="text-white home-header-text">I Am A</h1>
                                 <!-- Text animation -->
                                 <h1 class="ml4">
                                     <span class="letters letters-1">Builder</span>
@@ -56,35 +56,33 @@ if ( is_front_page() ) {
                                     physically & mentally. <br>Join me
                                     on my journey to try upgrade myself through electronics, bio-hacking and much more!
                                 </p>
-                                <a href="#">
-                                    <div class="hero-video-navigation">
-                                        <div class="text-white">Watch Latest Video Now!</div>
-                                        <div class="circle-play-button">></div>
+
+                                <div class="hero-video-navigation">
+
+                                    <div class="text-white"><a href="#" class="link-button">Watch Latest Video Now!</a>
                                     </div>
-                                </a>
-                                <div>
+                                    <div class="circle-play-button"><a href="#" class="link-button">></a></div>
+
                                 </div>
                             </div>
-                            <div class="hero-image-container col-md">
+                            <div class="hero-image-container col-12 col-md-6">
                                 <img class="hero-image" style="margin-right:-5%;"
                                     src="<?php echo get_template_directory_uri(); ?>/src/assets/ARC-reactor.png">
                             </div>
                             <!-- // Transparent Ironman Images - Background -->
                             <img class="hero-image-bg-transparent hero-t-1 position-absolute"
-                                src="<?php echo get_template_directory_uri(); ?>/src/assets/Ironman-PNG.png">
+                                src="<?php echo get_template_directory_uri(); ?>/src/assets/robot-arm.svg">
                         </div>
                     </div>
                     <section>
-                        <div class="wrapper-bg">
-                            <img class="section-1-corner" style="margin-right:-5%;"
-                                src="<?php echo get_template_directory_uri(); ?>/src/assets/dots.png">
-                            <img class="section-1-corner2" style="margin-right:-5%;"
+                        <div class="wrapper-bg container">
+                            <img class="section-1-corner"
                                 src="<?php echo get_template_directory_uri(); ?>/src/assets/dots.png">
                             <div class="wrapper-bg-clip container">
                                 <h4 class="t-text">IMPROVE</h4>
                             </div>
-                            <div class="d-flex w-100 align-items-center pt-6" style="z-index:2">
-                                <div class="w-50 position-relative "><img class="first-content-image"
+                            <div class="d-flex row align-items-center pt-6 container" style="z-index:2">
+                                <div class="col-12 col-md-6 position-relative "><img class="first-content-image"
                                         src="<?php echo get_template_directory_uri(); ?>/src/assets/drone-red.jpg">
                                     <!-- <div class="circle-container">
 										<div class="circle1">
@@ -96,7 +94,7 @@ if ( is_front_page() ) {
 										</div>
 									</div> -->
                                 </div>
-                                <div class="w-50 text-block-first">
+                                <div class="col-12 col-md-6 text-block-first">
                                     <h6 class="intro-top"><span class="dash-line">-</span>Introduction</h6>
                                     <h2>My name is <span class="different-text">Jordy</span></h2>
                                     <p>I <strong>love</strong> to build, create and learn all things technology,
@@ -148,9 +146,8 @@ if ( is_front_page() ) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="w-50 position-relative h-100"><img
-                                        class="hero-image-bg-transparent hero-t-2 hovering"
-                                        src="<?php echo get_template_directory_uri(); ?>/src/assets/ironmanflyingtowards.png">
+                                <div class="w-90 position-relative h-100"><img class="hero-t-2"
+                                        src="<?php echo get_template_directory_uri(); ?>/src/assets/man-working-with-virtual-reality.svg">
                                 </div>
                             </div>
                         </div>
@@ -220,7 +217,7 @@ if ( is_front_page() ) {
 
                                 <div class="w-50 text-right d-flex flex-column align-items-end">
 
-                                    <div class="shadow1 w-70 mb-5 position-relative">
+                                    <div class="shadow1 w-70 mb-5 mr-3 position-relative">
 
 
                                         <div class="home-card-1 bg-gradient3 d-flex justify-content-between">
@@ -250,7 +247,7 @@ if ( is_front_page() ) {
                                     </div>
 
 
-                                    <div class="shadow1 w-70 mb-5 position-relative">
+                                    <div class="shadow1 w-70 mb-5 mr-3 position-relative">
 
                                         <div class="home-card-1 bg-gradient4 d-flex justify-content-between">
                                             <h4 class="p-4 color-white">Fitness</h4>
