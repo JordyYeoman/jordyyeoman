@@ -123,8 +123,8 @@ if ( is_front_page() ) {
                     </section>
                     <section>
                         <div class="container">
-                            <div class="d-flex w-100 align-items-center pt-6" style="z-index:2">
-                                <div class="w-50">
+                            <div class="d-flex row align-items-center pt-6" style="z-index:2">
+                                <div class="col-12 col-md-6">
                                     <div class="">
                                         <h6><span class="dash-line">-</span>Hey you, I'm</h6>
                                         <h1 class="text-white">More than just</h1>
@@ -146,7 +146,7 @@ if ( is_front_page() ) {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="w-90 position-relative h-100"><img class="hero-t-2"
+                                <div class="col-12 col-md-6 position-relative h-100"><img class="hero-t-2"
                                         src="<?php echo get_template_directory_uri(); ?>/src/assets/man-working-with-virtual-reality.svg">
                                 </div>
                             </div>
@@ -160,7 +160,7 @@ if ( is_front_page() ) {
                         </div>
                         <div class="container">
                             <div class="row m-0 cardStyles position-relative mouseMoveContainer pt-6">
-                                <div class="w-50 d-flex flex-column">
+                                <div class="col-12 col-md-6 d-flex flex-column">
 
                                     <div class="shadow1 w-70 mb-5 position-relative">
 
@@ -172,13 +172,15 @@ if ( is_front_page() ) {
 
                                         </div>
 
-                                        <div>
+                                        <div class="content-container-hover-card">
+
                                             <p class="p-4 card-para">Programming is fascinating, from learning
                                                 Javascript over
                                                 the
                                                 last year, to now moving into other languages such as python to code
                                                 drones!
                                                 Check out some of my recent work.</p>
+
                                             <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
 
                                                 <h6>Latest Posts</h6>
@@ -199,11 +201,13 @@ if ( is_front_page() ) {
 
                                         </div>
 
-                                        <div>
+                                        <div class="content-container-hover-card">
+
                                             <p class="p-4 card-para">From drones to power tools and everything in
                                                 between. I love
                                                 solving issues on
                                                 repair tools, albeit I have a tonne to learn still.</p>
+
                                             <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
 
                                                 <h6>Latest Posts</h6>
@@ -215,7 +219,7 @@ if ( is_front_page() ) {
 
                                 </div>
 
-                                <div class="w-50 text-right d-flex flex-column align-items-end">
+                                <div class="col-12 col-md-6 text-right d-flex flex-column align-items-end">
 
                                     <div class="shadow1 w-70 mb-5 mr-3 position-relative">
 
@@ -227,7 +231,8 @@ if ( is_front_page() ) {
 
                                         </div>
 
-                                        <div>
+                                        <div class="content-container-hover-card">
+
                                             <p class="p-4 card-para">There is a strange satisfaction in using your
                                                 hands
                                                 to
@@ -237,6 +242,7 @@ if ( is_front_page() ) {
                                                 to
                                                 build bigger and better projects, have a look at some recent work.
                                             </p>
+
                                             <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
 
                                                 <h6>Latest Posts</h6>
@@ -254,11 +260,13 @@ if ( is_front_page() ) {
                                             <img class="w-auto pr-4"
                                                 src="<?php echo get_template_directory_uri(); ?>/src/assets/jordy-amara-fitness.svg">
                                         </div>
-                                        <div>
+                                        <div class="content-container-hover-card">
+
                                             <p class="p-4 card-para">Exercise is one of my main passions, I love to
                                                 push myself
                                                 physically to see how far I can go. The body is one amazing machine.
                                             </p>
+
                                             <div class="px-4 pt-0 d-flex justify-content-between card-share-details">
 
                                                 <h6>Latest Posts</h6>
@@ -291,12 +299,12 @@ if ( is_front_page() ) {
                                 <img class="bg-svg"
                                     src="<?php echo get_template_directory_uri(); ?>/src/assets/lets-colab.svg">
                             </div>
-                            <div class="d-flex w-100 align-items-center pt-6 position-relative" style="z-index:2">
-                                <div class="w-50 p-4">
+                            <div class="d-flex row align-items-center pt-6 position-relative" style="z-index:2">
+                                <div class="col-12 col-md-6 p-4">
                                     <div>
                                     </div>
                                 </div>
-                                <div class="w-50 py-5 px-5 contact-input">
+                                <div class="col-12 col-md-6 py-5 px-5 contact-input">
                                     <h2 style="font-size:4rem;">Let's Collab!</h2>
                                     <?php echo do_shortcode('[contact-form-7 id="63" title="main-contact-form" ]');?>
 

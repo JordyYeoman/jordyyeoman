@@ -36,14 +36,14 @@ if ( is_front_page() ) {
 
         <div class="<?php echo esc_attr( $container ); ?>" id="content" style="min-height:100vh;">
             <span style="color:black;">
-                <div class="row" style="padding-left: 10%;">
+                <div class="row standard-pad-mob" style="padding-left: 10%;">
 
                     <div class="col-md-12 content-area" id="primary">
 
-                        <main class="d-flex justify-content-between px-5 row" id="main" role="main"
+                        <main class="d-flex justify-content-between px-5 row m-rev" id="main" role="main"
                             style="padding-right:0!important;">
 
-                            <div class="col-6 pt-4">
+                            <div class="col-12 col-md-6 pt-4">
                                 <?php echo the_content(); ?>
                                 <div class="d-flex justify-content-center pt-4">
                                     <a href="#">
@@ -65,7 +65,7 @@ if ( is_front_page() ) {
                     </div><!-- #primary -->
 
                 </div><!-- .row end -->
-                <div class="row" style="padding-left: 10%; padding-top: 32px;">
+                <div class="row standard-pad-mob" style="padding-left: 10%; padding-top: 32px;">
 
                     <div class="col-md-12 content-area" id="primary">
 
@@ -75,7 +75,7 @@ if ( is_front_page() ) {
 
                 </div><!-- .row end -->
 
-                <div class="row" style="padding-left: 10%; padding-top: 128px;">
+                <div class="row standard-pad-mob" style="padding-left: 10%; padding-top: 128px;">
 
                     <div class="col-md-12 content-area d-flex justify-content-center flex-column align-items-center"
                         id="primary">
@@ -124,10 +124,10 @@ if ( is_front_page() ) {
             <div class="bg-color-container bg-cont1 position-absolute"></div>
             <div class="bg-color-container bg-cont2 position-absolute"></div>
             <div class="container" style="padding-bottom:6rem; padding-top:8rem!important;">
-                <div class="row" style="padding-left: 10%;">
+                <div class="row m-row-rev" style="padding-left: 10%;">
 
-                    <div class="col-6">
-                        <h3>Interested in collaborating on a project?</h3>
+                    <div class="col-12 col-md-6">
+                        <h3 class="mob-txt-cntr">Interested in collaborating on a project?</h3>
                         <div class="d-flex flex-column">
                             <ul>
                                 <li>Share your ideas</li>
@@ -135,7 +135,7 @@ if ( is_front_page() ) {
                                 <li>Challenge me to build something</li>
                                 <li>Or just share the love and come for a chat!</li>
                             </ul>
-                            <div class="d-flex justify-content-left pt-4">
+                            <div class="d-flex justify-content-center justify-content-md-left pt-4">
                                 <a href="https://discord.gg/6GUB8UYz8Q">
                                     <div class="join-team-btn shadow-light">
                                         <h3>Jump In!</h3>
@@ -144,13 +144,13 @@ if ( is_front_page() ) {
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <a href="https://discord.gg/6GUB8UYz8Q">
                             <div class="d-flex flex-column align-items-center">
-                                <img class="bounce-btn"
+                                <img class="bounce-btn disc-mob"
                                     src="<?php echo get_template_directory_uri(); ?>/src/assets/Discord-Logo-White.png"
                                     style="max-width: 40%; transform:rotate(1deg);">
-                                <img class="bounce-btn"
+                                <img class="bounce-btn disc-mob"
                                     src="<?php echo get_template_directory_uri(); ?>/src/assets/Discord-Wordmark-White.png"
                                     style="max-width: 40%; transform:rotate(1deg);">
 
@@ -163,7 +163,7 @@ if ( is_front_page() ) {
 
             </div><!-- .row end -->
 
-            <img src="<?php echo get_template_directory_uri(); ?>/src/assets/repairman.png"
+            <img class="mob-repair" src="<?php echo get_template_directory_uri(); ?>/src/assets/repairman.png"
                 style="max-width: 20%; bottom: -10px; position:absolute; transform: scaleX(-1);">
         </div>
 

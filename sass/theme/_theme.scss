@@ -381,6 +381,7 @@ a.nav-link:hover {
 	position: relative;
 	min-height: 400px;
 	display: flex;
+	margin-top: -75px;
 	justify-content: center;
 }
 
@@ -593,12 +594,20 @@ form button {
 	transition: 0.5s;
 	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 	margin-left: 1rem;
+	min-height: 368px;
 	//min-height: 50%;
 }
 
 .shadow1:hover {
 	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 	transform: scale(0.95);
+}
+
+.content-container-hover-card {
+	display: flex;
+	flex-direction: column;
+	height: 55%;
+	justify-content: space-between;
 }
 
 .d-contents {
@@ -906,6 +915,11 @@ a h4 {
 	//transition: 0.5s all ease;
 }
 
+// Contact Page
+.contact-page-form p {
+	color: black;
+}
+
 // #footer ul.social li:hover a i {
 // 	font-size: 30px;
 // 	margin-top: -10px;
@@ -965,6 +979,9 @@ a h4 {
 	.home-header-text {
 		font-size: 3.5rem;
 	}
+	.home-header-text {
+		margin-bottom: 20px;
+	}
 	.hero-text-description {
 		padding-right: 3rem;
 	}
@@ -973,5 +990,82 @@ a h4 {
 		border-left: transparent;
 		padding-bottom: 0px;
 		margin-bottom: 10px;
+	}
+	.wrapper-bg-clip {
+		clip-path: polygon(
+			60% 0,
+			70% 5%,
+			100% 5%,
+			100% 95%,
+			60% 95%,
+			50% 100%,
+			0 100%,
+			0 0
+		);
+	}
+	.cardStyles {
+		margin-top: 32px !important;
+	}
+	.t-text {
+		color: rgba(0, 0, 0, 0.2);
+		letter-spacing: 16px;
+		line-height: 2;
+		font-size: 1.25rem;
+	}
+	.container-hero {
+		margin-bottom: 125px;
+	}
+	.intro-top {
+		padding-top: 1rem;
+	}
+	.hero-t-2 {
+		margin-top: 30px;
+	}
+	.wrapper-bg {
+		margin-top: 0;
+	}
+	.shadow1 {
+		width: 100% !important;
+		margin-left: 0;
+		margin-right: 0 !important;
+	}
+	div.home-card-1 > img {
+		width: 62% !important;
+	}
+	.circleAnim-container {
+		display: none;
+	}
+	.bg-svg {
+		height: 120%;
+		object-fit: cover;
+		object-position: 38%;
+		left: -125px;
+		top: -6px;
+	}
+	.m-rev {
+		flex-direction: column-reverse;
+	}
+	.bg-color-container {
+		width: 140%;
+		left: -20%;
+	}
+	.m-row-rev {
+		flex-direction: column-reverse;
+		padding-left: 0% !important;
+	}
+	.disc-mob {
+		max-width: 75% !important;
+		transform: rotate(0deg) !important;
+	}
+	.mob-txt-cntr {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.mob-repair {
+		max-width: 70% !important;
+	}
+	.standard-pad-mob {
+		padding-left: 0 !important;
 	}
 }
