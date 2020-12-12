@@ -1,12 +1,12 @@
-### Hi there 👋, My name is Jordy Yeoman
+### Hi there 👋, My name is Jordy.
 
-#### I am Self Taught Programmer.
+#### I'm Self Taught Programmer.
 
 ![I'm a Self Taught Programmer.](https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 
 I love to learn and grow. Building all things technology is my passion.
 
-Skills: REACT / JS / HTML / CSS
+Skills: REACT + REACT NATIVE / JS / HTML / CSS
 
 - 🔭 I’m currently working on my own personal site & a portable ECG monitor.
 - 🌱 I’m currently learning Javascript / Electrical Circuits & Repair /
