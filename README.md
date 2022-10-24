@@ -6,10 +6,10 @@
 
 I love to learn and grow. Building all things technology is my passion.
 
-Skills: REACT + REACT NATIVE / JS / HTML / CSS / Flutter / SwiftUI
+Skills: REACT + REACT NATIVE / REDUX / JS / HTML / CSS
 
 - 🔭 I’m currently working on my own personal site & a portable ECG monitor.
-- 🌱 I’m currently learning Flutter / React / Swift / Javascript / Electrical Circuits & Repair /
+- 🌱 I’m currently learning C++ / GO / React / Data Processing / Electrical Circuits & Repair /
 - 👯 I’m looking to collaborate on tech projects - hardware/software.
 - 💬 Ask me about anything!
 - 📫 How to reach me: jordyyeoman@gmail.com
